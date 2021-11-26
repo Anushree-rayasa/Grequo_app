@@ -1,0 +1,35 @@
+.grequoBox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grequoBox:hover {
+    border: 1px solid gray;
+}
+
+.grequoBox__info {
+    display: flex;
+    align-items: center;
+}
+
+.grequoBox__info > h5{
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.grequoBox__grequo {
+    display: flex;
+    margin-top: 8px;
+}
+
+.grequoBox__grequo > p {
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
